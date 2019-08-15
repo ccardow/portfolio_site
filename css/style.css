@@ -298,7 +298,7 @@ body {
 }
 
 .items .item:hover .openButton {
-  left: 0px;
+  left: 28px;
 }
 
 .items .item:hover .projectLink {
