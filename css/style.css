@@ -6,6 +6,10 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.slides-navigation {
+  top: 56% !important;
+}
+
 .slides-navigation .prev,
 .slides-navigation .next {
   width: 47px;
