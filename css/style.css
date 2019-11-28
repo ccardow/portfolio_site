@@ -226,6 +226,7 @@ body {
 
 .itemsContainer {
   width: 100%;
+  text-align: center;
 }
 
 .items li img {

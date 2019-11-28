@@ -3,6 +3,23 @@ $(window).on('load', function() {
     $('.loader').fadeOut(750);
   });
 
+  var $grid = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    getSortData: {
+      name: '.name',
+      category: '[data-category]'
+    },
+    // layout mode options
+    masonry: {
+      columnWidth: 200
+    }
+  });
+
+  // layout Isotope after each image loads
+  $grid.imagesLoaded().progress(function() {
+    $grid.isotope('layout');
+  });
+
   $('.items').isotope({
     filter: '*',
     animationOptions: {
