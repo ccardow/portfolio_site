@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
-    "lazysizes": "^5.2.0-beta1"
+    "lazysizes": "^5.2.1"
   },
   "devDependencies": {},
   "scripts": {
